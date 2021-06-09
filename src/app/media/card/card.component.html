@@ -1,0 +1,13 @@
+<!-- Loop de criação de cards-->
+<div class="row g-5">
+    <div *ngFor="let card of cards" class="col-12 col-lg-4 card mb-3">
+        <img [src]="card.img" class="card-img-top" alt="...">
+        <div class="card-body">
+            <div class="d-flex gx-4">
+                <p class="card-text me-4">{{card.date | uppercase}}</p>
+                <p class="card-text">{{card.type | titlecase}}</p>
+            </div>
+            <h5 class="card-title">{{card.title}}</h5>
+        </div>
+    </div>
+</div>

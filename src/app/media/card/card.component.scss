@@ -1,0 +1,14 @@
+.card {
+  border: none;
+}
+h3 {
+  font-size: 300%;
+}
+div {
+  p:first-child {
+    color: gray;
+  }
+  p:nth-child(2) {
+    color: rgb(80, 165, 125);
+  }
+}

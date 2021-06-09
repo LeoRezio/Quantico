@@ -1,0 +1,32 @@
+.more {
+  font-size: 200%;
+}
+h3 {
+  font-size: 400%;
+}
+@media screen and (min-width: 600px) {
+  .bg-img {
+    background-image: url("../../assets/images/img-focus.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 20%;
+    padding-bottom: 5%;
+  }
+  .color-text {
+    color: white;
+    text-shadow: 1px 1px #000;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .color-text {
+    color: black;
+  }
+  a {
+    color: Black;
+    text-decoration: none;
+  }
+}
